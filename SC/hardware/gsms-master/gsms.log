@@ -1,0 +1,26 @@
+2020-09-01 10:59:27.187 ERROR 34324 --- [main] com.cloudstone.gsms.service.LogTest      : error
+2020-09-01 10:59:51.921  INFO 27036 --- [main] com.cloudstone.gsms.service.LogTest      : Starting LogTest on LAPTOP-NJK7IGJQ with PID 27036 (started by jinya in D:\mysoftware\gsms)
+2020-09-01 10:59:51.922  INFO 27036 --- [main] com.cloudstone.gsms.service.LogTest      : The following profiles are active: dev
+2020-09-01 10:59:52.176  WARN 27036 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-01 10:59:54.437  INFO 27036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-01 10:59:54.502  INFO 27036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 2 JPA repository interfaces.
+2020-09-01 10:59:54.597  WARN 27036 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.cloudstone.gsms.mapper]' package. Please check your configuration.
+2020-09-01 10:59:55.050  INFO 27036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-01 10:59:55.111  INFO 27036 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-01 10:59:55.215  INFO 27036 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-09-01 10:59:55.389  INFO 27036 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-01 10:59:55.457  WARN 27036 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-01 10:59:56.068  INFO 27036 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-01 10:59:56.152  INFO 27036 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-01 10:59:56.958  INFO 27036 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-01 10:59:57.005  INFO 27036 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-09-01 10:59:57.902  INFO 27036 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-01 10:59:57.910  INFO 27036 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-01 10:59:58.251  INFO 27036 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-01 10:59:58.258  INFO 27036 --- [main] com.cloudstone.gsms.service.LogTest      : Started LogTest in 6.796 seconds (JVM running for 7.81)
+2020-09-01 10:59:58.317  INFO 27036 --- [main] com.cloudstone.gsms.service.LogTest      : info
+2020-09-01 10:59:58.317 ERROR 27036 --- [main] com.cloudstone.gsms.service.LogTest      : error
+2020-09-01 10:59:58.327  INFO 27036 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-01 10:59:58.329  INFO 27036 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-01 10:59:58.330  INFO 27036 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-01 10:59:58.339  INFO 27036 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

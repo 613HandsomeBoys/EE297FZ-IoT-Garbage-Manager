@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /gss
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gss
+    username: root
+    password: jinshoucai
+    driver-class-name: com.mysql.cj.jdbc.Driver

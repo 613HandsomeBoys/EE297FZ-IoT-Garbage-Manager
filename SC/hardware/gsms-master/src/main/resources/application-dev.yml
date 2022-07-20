@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /gsms
+default:
+  name: jinyannan
+  age: 47
+  description: 姓名${default.name},年龄${default.age}
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/world?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 5Ijinshoucai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  devtools:
+    add-properties: true
+logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file:
+#    path: ./
+#    name: gsms.log
+#  level:
+#    root: info
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 8081
+    mail:
+      enabled: false
+  endpoint:
+    health:
+      show-details: always
+#  config: src/main/resources/logback-spring.xml

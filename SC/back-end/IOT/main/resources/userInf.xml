@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.userInfMapper">
+    <!--插入新的垃圾信息-->
+    <insert id="addBinInf" parameterType="Bean.bin">
+        insert into garbage (height, CID, per, alarm)
+        values (#{height}, #{CID}, #{per}, #{alarm})
+    </insert>
+
+    <select id="getUserStarBooks" resultType="Bean.bin">
+        select * from garbage order by create_time desc limit 100 where CID=#{CID};
+    </select>
+
+    <select id="getOneBinInf" resultType="Bean.bin" parameterType="int">
+        select * from garbage order by  create_time desc limit 1 where CID=#{CID};
+    </select>
+</mapper>
