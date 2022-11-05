@@ -1,7 +1,8 @@
-# An IoT Garbage Monitoring System For Effective Garbage Management
-*MIEC Team Work Project (RIDS, 2nd, 2022-Summer)*
+# EE297FZ Project: Garbage Manager
+An IoT Garbage Monitoring System For Effective Garbage Management
 
 ## Project video link: 
+
 https://www.bilibili.com/video/BV1xS4y1i7rZ?spm_id_from=333.999.0.0
 
 ### Team Members:
@@ -17,6 +18,6 @@ This project IOT Garbage Monitoring system is a very innovative system which wil
 
 Hello MIECer. If you can find the program Repo, your retrieval ability must be very outstanding, and I hope this second-year project's Repo can give you some reference.
 
-**It is important to note that if you get the similar (or even the same) topic, please do not directly copy our work. **
+It is important to note that if you get the similar (or even the same) topic, please do not directly copy our work. 
 
 **Finally, wish you all the best in MIEC.**
