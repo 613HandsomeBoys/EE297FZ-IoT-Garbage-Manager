@@ -1,7 +1,7 @@
 # EE297FZ Project: Garbage Manager
-## Project video link 🚀
+## Project demo video 🚀
 
-https://www.bilibili.com/video/BV1xS4y1i7rZ?spm_id_from=333.999.0.0
+[Click here]( https://www.bilibili.com/video/BV1jv4y1S7VQ/?share_source=copy_web&vd_source=c8936a3bacfd65375f9e88b3bb9a12ba)
 
 ### **Team Members** 🧑‍🎓
 
